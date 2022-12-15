@@ -5,7 +5,7 @@ body {
     font-family: 'Gothic A1', sans-serif;
 }
 h1 {font-size : 60px;}
-h2 {font-size : 36px}
+h2 {font-size : 32px; font-weight: 600;}
 
 /* Style the top navigation bar */
 .topnav {
@@ -95,11 +95,15 @@ h2 {font-size : 36px}
 }
 
 .item h2 {
-    margin: 0;
+    margin: 30;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.item a:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 pink);
 }
 
 #middleText{
@@ -137,6 +141,35 @@ h2 {font-size : 36px}
 .button1:hover{
     background-color: #000000;
     color: white;
+}
+
+table {
+    display: table;
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 3%;
+    margin-right: auto;
+    /* border: 1px solid white; */
+    border-spacing: 2px;
+    font-size:1.5em;
+}
+
+th, td {
+    border: 1px solid white;
+    color:white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table a {
+  color : white;
+  text-decoration: underline;
+}
+
+table a:hover {
+  text-decoration: underline overline;
 }
 
 footer {

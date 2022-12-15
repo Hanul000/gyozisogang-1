@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="../img/favicon/logo_square.png" type="image/x-icon">
+    <title>교지서강 - 최신호</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body, html{
+        height: 100%;
+        margin: 0;
+      }
+
+      .bg {
+        background-color: #330066;
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "bg"></div>
+    <div class="topnav">
+        <!-- Centered link -->
+        <div class="topnav-centered">
+        <a href="../index.html"><img src="../img/homeK90.png" style="width:5.5em; margin-top:0.5em;border-color: white;"></a>
+        </div>
+        
+        <!-- Left-aligned links (default) -->
+        <div class="topnav-left">
+        <a href="newmag.html">최신호</a>
+        <a href="../html/oldmags.html">지난호</a>
+        </div>
+        
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+        <a href="../html/board.html">비망록</a>
+        <a href="../html/notice.html">알림글</a>
+        </div>
+    </div>
+    <!-- 이상 네비게이션 바. 여기서부터 본문 시작 -->
+    <div style="position:absolute; left:50%; top: 55%; transform: translate(-50%, -50%);">
+      <object
+        data='pdf/2022교지서강83호.pdf'
+        type="application/pdf"
+        width="1200"
+        height="678"
+      >
+
+        <iframe src='pdf/2022교지서강83호.pdf'></iframe>
+      </object>
+    </div>
+    <footer>
+        <p>서울시 마포구 백범로 35 서강대학교 베르크만스우정원 지하 1층 B115 교지서강 (우) 04107
+        <a href="http://instagram.com/gyozisogang" target="_blank">인스타그램</a></p>
+    </footer>
+  </body>
+</html>
