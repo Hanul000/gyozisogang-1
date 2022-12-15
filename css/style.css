@@ -87,8 +87,6 @@ h2 {font-size : 32px; font-weight: 600;}
 
 .item {
     flex : 1 1 0;
-    /* background-color: #f1f1f1; */
-    /* border : 1px solid black; */
     line-height: 3em;
     align-content: center;
     text-align: center;
@@ -171,6 +169,33 @@ table a {
 table a:hover {
   text-decoration: underline overline;
 }
+/* for the notice board */
+.wrap{
+	width: 80%;
+	margin: 15px auto;
+	padding: 15px 10px;
+	background: white;
+	/* border: 2px solid #DBDBDB; */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.title, .userName {
+  font-weight:700;
+}
+
+.post {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.post .title{
+  font-style:italic;
+}
+.post .body{
+  margin-top:5px;
+}
+/* for the notice board */
 
 footer {
     border-top: 1px solid #000000;

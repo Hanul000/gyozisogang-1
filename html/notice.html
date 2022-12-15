@@ -29,38 +29,25 @@
     </div>
     <!-- 이상 네비게이션 바. 여기서부터 본문 시작 -->
     
-    <div>
-        <table style = "position:absolute; top:50%; transform:translate(10%, -50%); color:black">
-            <tbody>
-                <tr>
-                    <td>1970</td>
-                    <td>1호</td>
-                    <td><a href = "#">읽기</a></td>
-                </tr>
-                <tr>
-                    <td>1971</td>
-                    <td>2호</td>
-                    <td><a href = "#">읽기</a></td>
-                </tr>
-                <tr>
-                    <td>1972</td>
-                    <td>3호</td>
-                    <td><a href = "#">읽기</a></td>
-                </tr>
-                <tr>
-                    <td>1973</td>
-                    <td>4호</td>
-                    <td><a href = "#">읽기</a></td>
-                </tr>
-                <tr>
-                    <td>1974</td>
-                    <td>5호</td>
-                    <td><a href = "#">읽기</a></td>
-                </tr>
-            </tbody>
-        </table>    
+    <div class="wrap"> 
+        <div>
+          <h5 class="title"> Filters </h5>
+          <script src="../notice.js"></script>
+          <div class="byUser">
+            <span class="title"> 검색 </span>
+            <select id="selUser">
+              <option value=0>모든 분류</option>
+            </select>
+            <button type="button" onclick="searchUser()">찾기 </button>
+          </div>
+        </div>
     </div>
-
+        
+    <div class="wrap">
+        <div><h1 class="title">Posts</h1></div>
+        <p class="reply">
+        </p>
+    </div>
 
     <footer>
         <p>서울시 마포구 백범로 35 서강대학교 베르크만스우정원 지하 1층 B115 교지서강 (우) 04107
