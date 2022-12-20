@@ -15,6 +15,7 @@ h2 {font-size : 32px; font-weight: 600;}
   width: 100%;
   background-color: white;
   border-bottom: 1px solid black;
+  z-index : 1;
 }
 
 .topnav-left a {
@@ -100,8 +101,9 @@ h2 {font-size : 32px; font-weight: 600;}
     transform: translate(-50%, -50%);
 }
 
-.item a:hover{
-  filter: opacity(0.5) drop-shadow(0 0 0 pink);
+.item img:hover{
+  filter: drop-shadow(0px 0px 500px yellow);
+  z-index : -1;
 }
 
 #middleText{
@@ -199,10 +201,12 @@ table a:hover {
 
 footer {
     border-top: 1px solid #000000;
+    background-color: white;
     text-decoration: none;
     text-align: center;
     padding: 5px;
     top:0;
     width: 100%;
+    z-index: 2;
 
 }
